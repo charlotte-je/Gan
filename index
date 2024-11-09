@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baha Men Official Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #d2e3a9;
+            font-family: Arial, sans-serif;
+        }
+        .header, .nav-bar, .content-box {
+            border-radius: 4px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .nav-bar {
+            background-color: #bfdc8e;
+        }
+        .header {
+            background: #4d7538 url('https://via.placeholder.com/600x100.png?text=Baha+Men+Header') no-repeat center;
+            color: white;
+            padding: 1rem;
+        }
+        .content-box {
+            background-color: #e6e8d7;
+            padding: 1rem;
+        }
+        .section-title {
+            background-color: #bfdc8e;
+            padding: 0.25rem 0.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 4px;
+        }
+        .btn {
+            background-color: #c6d7a8;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #b0c892;
+        }
+        .link {
+            color: #5a7b3d;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="max-w-5xl mx-auto p-4">
+        <!-- Header -->
+        <div class="header text-center text-3xl font-bold">
+            BAHA MEN OFFICIAL SITE
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="nav-bar flex justify-around text-lg font-semibold text-gray-800 my-4 py-2">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">News</a>
+            <a href="#" class="link">Bio</a>
+            <a href="#" class="link">Audio/Video</a>
+            <a href="#" class="link">Photos</a>
+            <a href="#" class="link">Lyrics</a>
+            <a href="#" class="link">Tour Dates</a>
+            <a href="#" class="link">Message Board</a>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <!-- Big Fat News -->
+            <div class="content-box">
+                <div class="section-title">Big Fat News</div>
+                <p class="mt-2">
+                    <span class="link">Enter to win cool gear from the Baha Men and Big Fat Liar!</span>
+                </p>
+                <p class="mt-2">Plus watch the Big Fat Liar trailer:</p>
+                <p>
+                    <span class="link">56</span> |
+                    <span class="link">110</span> |
+                    <span class="link">300</span>
+                </p>
+            </div>
+
+            <!-- Featured Audio -->
+            <div class="content-box">
+                <div class="section-title">Featured Audio</div>
+                <p class="mt-2">Listen to a clip of the Baha Men's brand new single "<strong>Move It Like This</strong>"</p>
+                <div class="flex gap-2 mt-2">
+                    <div class="btn">Real</div>
+                    <div class="btn">MP3</div>
+                </div>
+                <img src="https://via.placeholder.com/100x100.png?text=Album+Cover" alt="Album Cover" class="mt-2">
+                <p class="mt-2 link">more...</p>
+            </div>
+
+            <!-- Mailing List -->
+            <div class="content-box">
+                <div class="section-title">Mailing List</div>
+                <p class="mt-2">Enter your email and click below:</p>
+                <input type="email" placeholder="Enter your email" class="border p-1 w-full mt-2">
+                <div class="btn mt-2 text-center">Join Our Mailing List</div>
+            </div>
+
+            <!-- Latest News -->
+            <div class="content-box">
+                <div class="section-title">Latest News</div>
+                <img src="https://via.placeholder.com/100x100.png?text=Album+Cover" alt="Album Cover" class="mt-2">
+                <p class="mt-2"><strong>"Move It Like This" - The brand new album from the Baha Men in stores on March 26, 2002!</strong></p>
+                <p class="mt-2">The band that brought you "Who Let The Dogs Out" is ready to launch their new album. The new album combines the energy of the band's native Junkanoo with Dance, R&B, and Reggae.</p>
+            </div>
+
+            <!-- Featured Video -->
+            <div class="content-box">
+                <div class="section-title">Featured Video</div>
+                <p class="mt-2">Watch Baha Men's latest video from the movie <strong>Shrek</strong>. "<strong>Best Years Of Our Lives</strong>"</p>
+                <div class="flex gap-2 mt-2">
+                    <div class="btn">Real Video</div>
+                </div>
+                <p class="mt-2 link">more...</p>
+            </div>
+
+            <!-- Upcoming Shows -->
+            <div class="content-box">
+                <div class="section-title">Upcoming Shows</div>
+                <p class="mt-2">Stay close to the Baha Men website to find out about upcoming shows.</p>
+            </div>
+
+            <!-- Message Board -->
+            <div class="content-box">
+                <div class="section-title">Baha Men Message Board</div>
+                <div class="btn mt-2 text-center">Join the Discussion!</div>
+            </div>
+
+            <!-- Plugins -->
+            <div class="content-box">
+                <div class="section-title">Plug-Ins</div>
+                <div class="flex gap-2 mt-2">
+                    <img src="https://via.placeholder.com/50x50.png?text=Winamp" alt="Winamp">
+                    <img src="https://via.placeholder.com/50x50.png?text=RealPlayer" alt="RealPlayer">
+                    <img src="https://via.placeholder.com/50x50.png?text=WindowsMedia" alt="Windows Media">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
